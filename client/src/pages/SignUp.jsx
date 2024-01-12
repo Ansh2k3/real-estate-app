@@ -5,7 +5,7 @@ export default function SignUp() {
   const [formData, setFormData] = useState({});
   const [error, setError] = useState(null);
   const [loading, setloading] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const handleChange = (e) => {
     setFormData({
@@ -35,7 +35,8 @@ export default function SignUp() {
       setloading(false);
       setError(null);
       navigate("/sign-in");
-    } catch (error) {
+    }
+     catch (error) {
       setloading(false);
       setError(error.message);
     }
