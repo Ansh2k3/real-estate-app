@@ -6,6 +6,7 @@ import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 dotenv.config();
+import cors from 'cors';
 
 mongoose.connect(process.env.VITE_MONGO).then(()=>{
   console.log('Connected to MongoDB!');
@@ -19,6 +20,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cookieParser());
+app.use(cors());
 
 app.listen(3000, () =>{
     console.log('Server is running on port 3000!');
