@@ -93,7 +93,7 @@ export default function SignUp() {
 
       <div className="lg:w-1/2">
         <img
-          src="../../src/assets/signup-bg.jpg"
+          src="/signup-bg.jpg"
           alt="Signup Image"
           className="w-full h-full object-cover"
         />
