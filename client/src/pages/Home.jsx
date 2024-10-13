@@ -55,8 +55,9 @@ export default function Home() {
           place with ease
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-          Real Estate is the best place to find your next perfect place to
-          live.
+        Welcome to Modern Estate - Where Contemporary Living Meets Timeless Elegance!
+
+Discover a new standard of sophisticated living with our collection of modern estates that redefine luxury and comfort. Our carefully curated properties embody the essence of contemporary design, offering a harmonious blend of cutting-edge architecture, high-end amenities, and thoughtful details.
           <br />
           We have a wide range of properties for you to choose from.
         </div>
